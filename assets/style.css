@@ -194,6 +194,16 @@ ol.steps li{margin:.5em 0}
 .legend .box{margin:.5em 0}
 .note{font-size:15.5px;color:var(--gris);margin-top:30px}
 
+/* ---------------- introducción ---------------- */
+.intro-txt{font-size:19.5px;line-height:1.7}
+.dedicatoria{text-align:center;margin:56px auto 30px;max-width:560px}
+.foto-circular{width:320px;height:320px;margin:0 auto;border-radius:50%;padding:7px;
+  background:conic-gradient(from 210deg,var(--verde),#68C3B3,var(--azul),var(--verde));box-shadow:0 10px 30px rgba(19,49,77,.18)}
+.foto-circular img{display:block;width:100%;height:100%;object-fit:cover;border-radius:50%;border:5px solid #fff}
+.dedicatoria h2{border:0;margin:30px 0 8px;font-size:24px}
+.dedicatoria p{font-style:italic;font-size:19px;color:#2d3b49}
+.dedicatoria .firma{font-style:normal;font-family:var(--sans);font-weight:700;color:var(--verde);font-size:20px}
+
 /* ---------------- móvil ---------------- */
 @media (max-width: 980px){
   body{font-size:17px}
@@ -214,6 +224,7 @@ ol.steps li{margin:.5em 0}
   .hero-art{display:none}
   .mp{display:block;width:100% !important}
   .pager{flex-direction:column}
+  .foto-circular{width:240px;height:240px}
 }
 @media print{
   .sidebar,.topbar,#read-progress,.complete-box,.pager,a.ver-sol{display:none !important}
